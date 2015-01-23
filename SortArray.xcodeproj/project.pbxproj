@@ -14,6 +14,7 @@
 		7350E0531A7245B000E1A780 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7350E0521A7245B000E1A780 /* Images.xcassets */; };
 		7350E0561A7245B000E1A780 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7350E0541A7245B000E1A780 /* LaunchScreen.xib */; };
 		7350E0621A7245B000E1A780 /* SortArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350E0611A7245B000E1A780 /* SortArrayTests.m */; };
+		7350E06D1A7245D400E1A780 /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7350E06C1A7245D400E1A780 /* model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7350E05B1A7245B000E1A780 /* SortArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7350E0601A7245B000E1A780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7350E0611A7245B000E1A780 /* SortArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortArrayTests.m; sourceTree = "<group>"; };
+		7350E06B1A7245D400E1A780 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		7350E06C1A7245D400E1A780 /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				7350E04A1A7245B000E1A780 /* AppDelegate.m */,
 				7350E04C1A7245B000E1A780 /* ViewController.h */,
 				7350E04D1A7245B000E1A780 /* ViewController.m */,
+				7350E06B1A7245D400E1A780 /* model.h */,
+				7350E06C1A7245D400E1A780 /* model.m */,
 				7350E04F1A7245B000E1A780 /* Main.storyboard */,
 				7350E0521A7245B000E1A780 /* Images.xcassets */,
 				7350E0541A7245B000E1A780 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				7350E04E1A7245B000E1A780 /* ViewController.m in Sources */,
 				7350E04B1A7245B000E1A780 /* AppDelegate.m in Sources */,
 				7350E0481A7245B000E1A780 /* main.m in Sources */,
+				7350E06D1A7245D400E1A780 /* model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
